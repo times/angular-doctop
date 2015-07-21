@@ -1,16 +1,16 @@
 {
-  "name": "angular-tabletop",
-  "version": "0.2.1",
+  "name": "angular-doctop",
+  "version": "0.1",
   "authors": [
-    "Ændrew Rininsland <aendrew@aendrew.com>"
+    "Elliot Davies <elliot.davies@the-times.co.uk>"
   ],
-  "description": "An AngularJS provider allowing easy resolution of Tabletop data via promises.",
-  "main": "TabletopProvider.js",
+  "description": "An AngularJS provider allowing easy resolution of Doctop data via promises.",
+  "main": "DoctopProvider.js",
   "keywords": [
     "angular",
     "angularjs",
-    "tabletop",
-    "tabletopjs"
+    "doctop",
+    "doctopjs"
   ],
   "license": "MIT",
   "homepage": "http://times.github.io",
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "tabletop": "~1.4.0"
+    "doctop": "~1.2.0"
   }
 }
