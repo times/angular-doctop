@@ -24,7 +24,7 @@
   ```
 1. This will return a promise, which you can resolve at will in your controller.
 
-Be sure to include both the angular-doctop and doctop scripts in your main app HTML file.
+Be sure to include both the angular-doctop and doctop scripts in your app's main HTML file.
 
 ### Changelog
 
