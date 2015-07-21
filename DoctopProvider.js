@@ -23,7 +23,7 @@ angular.module('times.doctop', [])
     // Method for instantiating
     this.$get = function ($q, $window) {
       doctopResponse = $q.defer();
-      $window.Tabletop.init(doctopOptions);
+      $window.$.doctop(doctopOptions);
 
       return doctopResponse.promise;
     };

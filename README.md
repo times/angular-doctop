@@ -18,7 +18,7 @@
   ...
   .config(function(DoctopProvider) {
     DoctopProvider.setDoctopOptions({
-        key: '', // Your key here
+        url: '', // Your url here
       });
   });
   ```
@@ -28,4 +28,5 @@ Be sure to include both the angular-doctop and doctop scripts in your app's main
 
 ### Changelog
 
-  * 0.1 - Initial fork of angular-tabletop
+  * 0.3.3 - Bugfixes
+  * 0.3 - Initial fork of angular-tabletop
